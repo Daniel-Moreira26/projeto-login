@@ -16,7 +16,7 @@
 }
 
 html,body {
-    background-color: #5f2c82;
+    background-color: #4f74b9cb;
     width: 100vw;
     height: 100vh;
 }
@@ -40,6 +40,7 @@ section#login {
 }
 
 section#login > div#img {
+    display: block;
     background: #5f2c82 url(../imagens/pexels-sevenstorm-juhaszimrus-569638.jpg) no-repeat;
     background-size: cover;
     height: 200px;
@@ -51,8 +52,8 @@ section#login > div#img {
 }
 
 #formulario {
+    display: block;
     background-color: white;
-    max-width: 250px;
     height: 310px;
     border-radius: 0px 0px 7px 7px;
 }
