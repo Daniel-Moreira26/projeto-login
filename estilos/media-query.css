@@ -36,6 +36,10 @@
         
     }
 
+    #iemail, #isenha {
+        width: 245px;
+    }
+
     
 }
 
@@ -69,6 +73,11 @@
         border-radius: 0px 10px 10px 0px;
         text-indent: 4px;
         
+    }
+
+    #iemail, #isenha {
+        transform: translateY(-11px);
+        width: 310px;
     }
     
 }

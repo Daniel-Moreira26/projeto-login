@@ -77,8 +77,26 @@ label {
 
 div.campo > .material-icons {
     color: white;
-    margin-top: 4px;
+    font-size: 2em;
+    padding: 8px;
+    padding: 4px;
 }
+
+#iemail, #isenha {
+    background-color: #64d8d4ee;
+    font-size: 1em;
+    height: 85%;
+    border: 1px solid #5f2c82 ;
+    border-radius: 8px;
+    padding: 3px;
+
+   
+   width: 160px;
+   transform: translateY(-9px);
+
+
+}
+
 
 form > div.campo {
     display: block;
@@ -88,11 +106,6 @@ form > div.campo {
     width: 90%;
     height: 40px;
     border-radius: 5px;
-}
-
-#iemail, #isenha {
-    width: 350px;
-
 }
 
 div.campo > label {
